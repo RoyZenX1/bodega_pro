@@ -37,17 +37,3 @@ Credenciales: `admin / admin123`
 ## Persistencia
 
 No hay MySQL, JPA ni Hibernate. Los repositorios usan `ArrayList`. Los cambios se mantienen mientras la aplicación está ejecutándose; al reiniciar, vuelven los datos iniciales.
-
-## Ejecución
-
-Con JDK 25 y Maven (el proyecto incluye Maven Wrapper, así que no necesitas instalar Maven):
-
-```bash
-mvn spring-boot:run
-```
-
-o en Windows:
-
-```bash
-mvnw.cmd spring-boot:run
-```
